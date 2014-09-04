@@ -2,7 +2,10 @@
 
 double fat(int a)
 {
-	return (a)?(a*fat(a-1)):(1);
+	double res=a;
+	while(a-1)
+		res*=--a;
+	return res;
 }
 
 int main()
