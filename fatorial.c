@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//retorna o fatorial de a
 double fat(int a)
 {
 	double res=a;
